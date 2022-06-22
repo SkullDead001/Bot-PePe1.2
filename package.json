@@ -6,11 +6,11 @@
 
   "descripcion" : "Hola este es mi primer bot" 
 
-  "main" : "deadskull.js" ,
+  "main" : "Deadskull.js" ,
 
   "guiones": {
 
-  "inicio" : "deadskull.js"
+  "inicio" : "Deadskull.js"
 
   },
 
