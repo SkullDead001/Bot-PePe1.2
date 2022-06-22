@@ -12,7 +12,7 @@ función asíncrona iniciar () {
 
         })
 
-        fs.existsSync('./Samu330.json') && client.loadAuthInfo('./Samu330.json')
+        fs.existsSync('./Bot-PePe1.2.json') && client.loadAuthInfo('./Bot-PePe1.2.json')
 
         cliente.on('conectando', () => {
 
@@ -28,7 +28,7 @@ función asíncrona iniciar () {
 
         esperar cliente.conectar({timeoutMs: 30*1000})
 
-        fs.writeFileSync('./Samu330.json', JSON.stringify(client.base64EncodedAuthInfo(), nulo, '\t'))
+        fs.writeFileSync('./Bot-PePe1.2json', JSON.stringify(client.base64EncodedAuthInfo(), nulo, '\t'))
 
         }
 
